@@ -1,0 +1,14 @@
+body{
+    background-image: url("../img/Café_de_Flore.jpg");
+    font-family: Arial;
+}
+#hoang{
+    letter-spacing: 2px;
+}
+#hung{
+    letter-spacing: 2px;
+    color: rgba(0,0,0,50%);
+}
+#hieu{
+    font-family: "Roboto Light";
+}

@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <script src="angular.min.js"></script>
+    <link rel="stylesheet" href="index/index.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="900" style="border-collapse: collapse;">
+                <tr>
+                    <td>
+                        <table border="1" cellpadding="0" cellspacing="0" width="100%" >
+                            <tr>
+                                <td>
+                                    <table border="1" cellpadding="0" cellspacing="0" width="100%" >
+                                        <tr>
+                                            <td width="25%" valign="top" align="center" style="padding: 30px;">
+                                                <img src="img/Hinh-anh-Samurai (22).jpg" width="200"/>
+                                            </td>
+                                            <td id="hieu" bgcolor="#8b4513" width="75%" valign="top" align="center" style="padding: 30px">
+                                                <h1>Caffe Dflore xin chào quý khách</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding: 10px;">
+                                   <p>chuyên phục vụ những loại caffe cao cấp</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table border="1" cellpadding="0" cellspacing="0" width="100%" >
+                            <tr>
+                                <td id="hung" width="30%" valign="top" align="left" style="padding: 150px 30px; text-align: center;">
+                                <ol>
+
+                                    <li><a href="#">Đặt Bàn tại quán</a></li>
+                                    <br>
+                                    <li><a href="#">Đặt caffe online</a></li>
+                                    <br>
+                                    <li><a href="#">Tổ chức sinh nhật</a></li>
+                                    <br>
+                                    <li><a href="#">caffe tự mix</a></li>
+                                </ol>
+                                </td>
+                                <td id="hoang" width="70%" valign="top" align="center" >
+                                   <h2>Các loại Caffe hiện đang phục vụ</h2>
+                                    <ul>
+                                        <li>Capuchino price 20k Mã 01</li>
+                                        <li>Caffe đen đá price 20k Mã 02</li>
+                                        <li>Caffe vị máu người price 40k Mã 03</li>
+                                        <li>caffe được làm từ milo price 50k Mã 04</li>
+                                    </ul>
+                                    <p>chỉ có mã 01 02 hiện đang phục vụ đủ 2 size M và XL chênh nhau 10k</p><br>
+                                    <p>Nếu muốn order xin nhập thông tin vào form bên dưới</p>
+                                    <form name="frm">
+                                        <p>&nbsp;</p>
+
+                                        <table width="66%" border="1">
+                                            <tr bgcolor="#B80000">
+                                                <td width="60%"><div align="center">Item Description</div></td>
+                                                <td width="11%"><div align="center">Price Per</div></td>
+                                                <td width="15%"><div align="center">Quantity</div></td>
+                                                <td width="14%"><div align="center">SubTotal</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td><div align="center">
+                                                    <p>Mã 01 size M</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                   <p>20k</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="B" type="Text" id="B" onChange="add()" size="5" >
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="Resultf1" type="Text" id="Resultf1" size="8" >
+                                                </div></td>
+                                            </tr>
+                                            <tr>
+                                                <td><div align="center">
+                                                    <p>Mã 01 size Xl</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <p>30k</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="C" type="Text" id="C" onChange="add()" size="5" >
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="Resultf2" type="Text" id="Resultf2" size="8" >
+                                                </div></td>
+                                            </tr>
+                                            <tr>
+                                                <td><div align="center">
+                                                    <p>Mã 02 size M</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <p>20k</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="D" type="Text" id="D" onChange="add()" size="5" >
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="Resultf3" type="Text" id="Resultf3" size="8" >
+                                                </div></td>
+                                                </tr>  <tr>
+                                                <td><div align="center">
+                                                    <p>Mã 02 size XL</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <p>30k</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="E" type="Text" id="E" onChange="add()" size="5" >
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="Resultf4" type="Text" id="Resultf4" size="8" >
+                                                </div></td>
+                                                </tr>
+                                                <tr>
+                                                <td><div align="center">
+                                                    <p>Mã 03</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <p>40k</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="F" type="Text" id="F" onChange="add()" size="5" >
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="Resultf5" type="Text" id="Resultf5" size="8" >
+                                                </div></td>
+                                                </tr>
+                                                <tr>
+                                                <td><div align="center">
+                                                    <p>Mã 04</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <p>50k</p>
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="G" type="Text" id="G" onChange="add()" size="5" >
+                                                </div></td>
+                                                <td><div align="center">
+                                                    <input name="Resultf6" type="Text" id="Resultf6" size="8" >
+                                                </div></td>
+                                                </tr>
+                                            <tr>
+                                                <td><div align="center"></div></td>
+                                                <td><div align="center"></div></td>
+                                                <td><div align="center"></div></td>
+                                                <td><div align="center">
+                                                    TOTAL:
+                                                    <input name="Total" type="Text" id="Total" size="8">
+                                                </div></td>
+                                            </tr>
+                                        </table>
+                                        <br>
+                                    </form>
+                                    <div ng-app="myApp" ng-controller="myController">
+                                      Địa Chỉ: <input type="text" ng-model="firstName"><br><br>
+                                      SĐT    : <input type="number" ng-model="lastName"><br><br>
+                                      <p>Cảm ơn quý Khách đã đặt hàng</p>
+                                        <p>đơn giao hàng: {{firstName}}</p>
+                                        <p>SĐT Khách hàng: {{lastName}}</p>
+                                        <input type="button" name="order" value="order">
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#8b4513" style="padding: 10px; border: 2px solid black" >
+                       <p>Địa chỉ: số 13 nghách 14 quận thủ Đức Hà Nội</p>
+                        <p>sđt: 0979907276</p>
+                        <p><a href="">link fb</a></p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<script>
+    function add() {
+        var b = parseInt(document.frm.B.value);
+        var c = parseInt(document.frm.C.value);
+        var d = parseInt(document.frm.D.value);
+        var e = parseInt(document.frm.E.value);
+        var f = parseInt(document.frm.F.value);
+        var g = parseInt(document.frm.G.value);
+        var resultf1 = 20 * b;var resultf2 = 30 * c;
+        var resultf3 = 20 * d;var resultf4 = 30 * e;
+        var resultf5 = 40 * f;var resultf6 = 50 * g;
+        document.frm.Resultf1.value = resultf1;
+        document.frm.Resultf2.value = resultf2;
+        document.frm.Resultf3.value = resultf3;
+        document.frm.Resultf4.value = resultf4;
+        document.frm.Resultf5.value = resultf5;
+        document.frm.Resultf6.value = resultf6;
+        document.frm.Total.value = resultf1 +  resultf2 +  resultf3 +  resultf4 +  resultf5 +  resultf6;
+    }
+</script>
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myController', function ($scope){
+        $scope.firstName = '';
+        $scope.lastName = '';
+    });
+</script>
+</body>
+</html>
